@@ -1,0 +1,206 @@
+// Reset css
+* {
+  padding: 0;
+  
+  box-sizing: border-box;
+  
+  
+}
+body{
+  width: 100%;
+  text-align: center;
+  
+}
+
+html {
+  font-size: 100%;
+  color: white;
+  .header {
+    width: 100%;
+    height: auto;
+    background: #003580;
+    padding-top: 0.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    .header__first{
+      display: flex;
+      justify-content: space-between;
+      .left {
+        h1 {
+          color: white;
+          // font-size: 1.5625rem;
+          text-transform: capitalize;
+        }
+      }
+      .right {
+        display: flex;
+        flex-wrap:row ;
+        button {
+          
+          margin-right: 5%;
+          text-transform: capitalize;
+        }
+      }
+    }
+      .header__navBar{
+      color: white;
+      display: flex;
+      flex: 1;
+      width: 75%;
+      margin-top: 2rem;
+      flex-basis: auto;
+      height: auto;
+      justify-content: space-between;
+      
+      .fa{
+        padding: 1rem;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .navBar.true{
+        border-radius: 20px ;
+        border: 3px solid white;
+        padding: 2px;
+      }
+    }
+    .header__conent{
+      color: white;
+      margin-left: 0%;
+      text-align: left;
+      button{
+        background-color: #0071c2;
+        border: #0071c2;
+        color: white;
+      }
+    }
+    .header__late{
+      display: flex;
+      justify-content: space-around;
+      transform: translatey(2rem);
+      color: gray;
+      background-color: white;
+      border: 4px solid #febb02;
+      padding: 1rem;
+      button{
+        padding: 0.5rem;
+        background-color: #003580;
+        border: #003580;
+        color: white;
+      }
+    }
+  }
+  .content{
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    .content__first{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      
+      .content__firts__item{
+        position: relative;
+        img{
+          font-size: 100%;
+          width: 95%;
+          height: auto;
+          border-radius: 10px;
+        }
+        .content__firts__item__text{
+          position: absolute;
+          top:65%;
+          left: 10%;
+          color: white;
+          text-align: start;
+        
+        }
+      }
+    }
+    .content__second{
+      h3{
+        margin-top: 2rem;
+        text-align: start;
+      }
+      .content__second__type{
+        display: flex;
+        justify-content: space-between;
+        .content__second__type__item{
+          text-align: start;
+          img{
+            width: 95%;
+            height: 60%;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+    .content__Third{
+      h3{
+        text-align: start;
+      }
+      .content__Third__Hotel{
+        display: flex;
+        
+        justify-content: space-between;
+        .content__Third__Hotel__item{
+          text-align: start;
+          img{
+            width: 250px;
+            height: 50%;
+            
+          }
+          .Rate{
+            display: flex;
+            .Rate__number{
+              background-color: #003580;
+              color: white;
+              padding: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .form_input{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #003580;
+    color: white;
+    input{
+      padding: 4px;
+      border-radius: 5px;
+      margin-right: 5px;
+    }
+    button{
+      background-color:#0071c2;
+      border: #003580;
+      color: white;
+    }
+  }
+  .footer{
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    .footer__item{
+      display: flex;
+      justify-content: space-around;
+
+
+      .footer__item__col{
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        .cot{
+          display: flex;
+          flex-flow: column;
+          color: #003580;
+          
+        }
+      }
+    }
+  }
+
+}
+
